@@ -239,9 +239,6 @@ h5 {
     .box {
         height:250px;
     }
-
-
-
     h5 {
         padding-left: 50%;
         padding-right: 5px;
@@ -296,11 +293,12 @@ h5 {
         width: 200px;
         height: 200px;
         margin: 20px;
+        margin-bottom: 0;
     }
     .prof{
         height: 400px;
     }
-    #heading {
+    #heading h3{
         margin: 10px auto;
     }
 }
