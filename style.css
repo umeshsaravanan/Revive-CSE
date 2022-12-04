@@ -335,6 +335,9 @@ h5 {
     .box {
         height: 400px;
     }
+    .menu {
+        width:100%;
+    }
     #div22 {
         height: 650px;
     }
