@@ -303,6 +303,9 @@ h5 {
     .prof{
         height: 400px;
     }
+    .d-content a {
+        padding: 0 20px;
+    }
 }
 @media screen and (min-width:961px)  and (max-width : 1029px){
     .box p {
@@ -318,9 +321,7 @@ h5 {
         display: inline-block;
     }
     .hide {
-
         display:none;
-
     }
     .box2 {
         display: inline-block;
@@ -361,5 +362,8 @@ h5 {
     }
     #div3 p {
         margin: 0;
+    }
+    .d-content a {
+        padding: 0 20px;
     }
 }
