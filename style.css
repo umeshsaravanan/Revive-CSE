@@ -45,6 +45,12 @@ body {
     justify-content: space-evenly;
     align-items: center;
 }
+.hide {
+    display: none;
+ }
+.d-content a {
+    padding: 0 20px;
+} 
 .menu .img1 {
     display: none;
 }
@@ -202,6 +208,9 @@ h5 {
     .d-content a {
         padding: 4px 30px;
     }
+    .hide {
+        display: inline-block;
+    }
 }
 @media screen and (min-device-width : 320px) and (max-width : 480px) {
     #textimg, #divp3, #box5, #box3, .menu {
@@ -279,6 +288,9 @@ h5 {
     .img {
         margin-right: 20px;
     }
+    .hide {
+        display: inline-block;
+    }
 }
 @media screen and (min-width:641px)  and (max-width : 960px){
     .box p {
@@ -303,12 +315,7 @@ h5 {
     .prof{
         height: 400px;
     }
-    .hide {
-        display: none;
-    }
-    .d-content a {
-        padding: 0 20px;
-    }
+
 }
 @media screen and (min-width:961px)  and (max-width : 1029px){
     .box p {
@@ -318,14 +325,12 @@ h5 {
         height: 300px;
     }
     #div22 {
-        height: 750px;
+        height: 650px;
     }
     #box5 {
         display: inline-block;
     }
-    .hide {
-        display:none;
-    }
+    
     .box2 {
         display: inline-block;
         width: 160px;
@@ -344,9 +349,7 @@ h5 {
     .box {
         height: 400px;
     }
-    .hide {
-        display:none;
-    }
+    
     #div22 {
         height: 650px;
     }
@@ -366,7 +369,5 @@ h5 {
     #div3 p {
         margin: 0;
     }
-    .d-content a {
-        padding: 0 20px;
-    }
+    
 }
