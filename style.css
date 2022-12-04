@@ -168,25 +168,6 @@ h5 {
     font-size: small;
 }
 @media screen and (min-width : 1030px) and (max-width : 1480px) {
-    .box, .b5, .prof {
-    transition: all;
-    transition-duration: 0.5s;
-}
-.box:hover {
-    width: 320px;
-    height: 320px;
-    box-shadow: 10px 5px 2px rgb(120, 115, 115);
-}
-.b5:hover {
-    width: 220px;
-    height: 220px;
-    box-shadow: 10px 5px 2px rgb(120, 115, 115);
-}
-.prof:hover {
-    width: 370px;
-    height: 370px;
-    box-shadow: 10px 5px 2px rgb(120, 115, 115);
-}
     .circle {
         border-radius: 50%;
         height: 150px;
