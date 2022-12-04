@@ -231,12 +231,14 @@ h5 {
     }
     .b5, .box {
         margin: 10px auto;
-        width: 100%;
+        width: 90%;
     }
     .box {
-        width: 90%;
-        font-size: large;
+        height:250px;
     }
+
+
+
     h5 {
         padding-left: 50%;
         padding-right: 5px;
