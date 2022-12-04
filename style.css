@@ -203,7 +203,7 @@ h5 {
         padding: 4px 30px;
     }
 }
-@media screen and (min-device-width : 280px) and (max-device-width : 620px)  and (orientation:portrait) {
+@media screen and (min-device-width : 320px) and (max-width : 480px) {
     #textimg, #divp3, #box5, #box3, .menu {
         display: block;
     }
