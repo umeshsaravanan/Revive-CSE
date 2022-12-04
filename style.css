@@ -16,6 +16,9 @@ body {
 .dark-mode #box3 h3, .dark-mode #box5 h4, .dark-mode h3 {
     color: yellow;
 }
+h3{
+    margin: 10px auto;
+}
 #div1 {
     margin: 0;
     margin-bottom: 5%;
@@ -297,9 +300,6 @@ h5 {
     }
     .prof{
         height: 400px;
-    }
-    #heading h3{
-        margin: 10px auto;
     }
 }
 @media screen and (min-width:481)  and (max-width : 1029px) {
