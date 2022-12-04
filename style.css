@@ -303,6 +303,9 @@ h5 {
     .prof{
         height: 400px;
     }
+    .hide {
+        display: none;
+    }
     .d-content a {
         padding: 0 20px;
     }
