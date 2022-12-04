@@ -124,7 +124,8 @@ h3 , h4{
     background-color: white;
 }
 #div3 p {
-    padding: 0 30%;
+    padding: 0 20%;
+    text-align: center;
 }
 #divp3 {
     display: flex;
