@@ -283,7 +283,7 @@ h5 {
         font-size: smaller;
     }
     .box {
-        height: 400px;
+        height: 300px;
     }
     #div22 {
         height: 800px;
@@ -303,5 +303,8 @@ h5 {
     #div3 p {
         width: 70%;
         margin: 0 auto;
+    }
+    #heading {
+        margin: 10px auto;
     }
 }
