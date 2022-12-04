@@ -205,6 +205,9 @@ h5 {
     .menu .img1 {
         display: inline-block;
     }
+    .text {
+        margin: 0 auto;
+    }
     #img {
         width: 80%;
         height: 250px;
