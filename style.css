@@ -313,7 +313,11 @@ h5 {
     .prof{
         height: 400px;
     }
+    .d-content a {
 
+    padding: 0 15px;
+
+    } 
 }
 @media screen and (min-width:961px)  and (max-width : 1029px){
     .box p {
