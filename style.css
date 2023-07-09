@@ -1,22 +1,26 @@
 * {
     font-family:'poppins';
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color: rgb(219, 214, 214);
 }
-.dark-mode,  .dark-mode .box,.dark-mode .box2, .dark-mode .prof{
+.dark-mode,  .dark-mode .box,.dark-mode .box2, .dark-mode .prof,.dark-mode .menu{
     background: linear-gradient(#12141d , #222121);
 }
 .dark-mode #div1,.dark-mode #div22{
     background: linear-gradient(#000000 , #181818);
 }
-.dark-mode #box3 p, .dark-mode #box5 p, .dark-mode #div3 p {
+.dark-mode #box3 p, .dark-mode #box5 p, .dark-mode #div3 p ,.dark-mode .menu a{
     color: white;
 }
 .dark-mode #box3 h3, .dark-mode #box5 h4, .dark-mode h3 {
     color: yellow;
 }
-
+.dark-mode .menu a:hover{
+    color:black;
+}
 #div1 {
     margin: 0;
     margin-bottom: 5%;
@@ -48,8 +52,8 @@ body {
 .hide {
     display: none;
  }
-.d-content a {
-    padding: 0 20px;
+.d-content {
+    display: flex;
 } 
 .menu .img1 {
     display: none;
@@ -76,9 +80,10 @@ body {
     text-decoration: none;
     color: black;
 }
-.active, .me:hover {
+.me:hover {
     background-color: yellow;
     border-radius: 5px;
+    color: black;
 }
 button {
     background-color: yellow;
@@ -91,6 +96,7 @@ button {
     background-color: white;
     border-radius: 5px;
     margin-right: 2%;
+    transition: all .5s;
 }
 img {
     position: relative;
@@ -123,6 +129,17 @@ h3 , h4{
     height: 250px;
     border: 1px solid black;  
     border-radius: 5px;
+    transition: all .5s;
+}
+.b5:hover {
+    box-shadow: 5px 5px 5px;
+    background-color: rgb(235, 238, 238);
+    width: 160px;
+}
+.box:hover {
+    box-shadow: 5px 5px 5px;
+    background-color: rgb(235, 238, 238);
+    width: 320px;
 }
 #div22 {
     margin: 5%;
@@ -213,6 +230,9 @@ h5 {
 @media screen and (min-device-width : 320px) and (max-width : 480px) {
     #textimg, #divp3, #box5, #box3, .menu {
         display: block;
+    }
+    .dark-mode .menu a{
+        color: black;
     }
     .menu .img1 {
         display: inline-block;
